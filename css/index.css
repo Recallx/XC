@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.box1 {
+  width: 540px;
+  height: 300px;
+  margin: 0 auto;
+}
+.box1 .cate {
+  display: flex;
+  height: 90px;
+  background: #fa7f50;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.box1 .cate a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.box1 .cate a span:nth-child(2) {
+  width: 42px;
+  height: 42px;
+  background: url('../img/xc_sprites.png') no-repeat 0 -130px;
+  background-size: 104px 327.5px;
+}
+.box1 .cate .he1,
+.box1 .cate .he2,
+.box1 .cate .he3 {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box1 .cate .he1 a,
+.box1 .cate .he2 a,
+.box1 .cate .he3 a {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #fff;
+}
+.box1 .cate .he1 a:nth-child(-n+2),
+.box1 .cate .he2 a:nth-child(-n+2),
+.box1 .cate .he3 a:nth-child(-n+2) {
+  border-bottom: 1px solid #fff;
+}
+.box1 .box2 {
+  background: #3d98ff;
+}
+.box1 .box2 a span:nth-child(2) {
+  background: url('../img/xc_sprites.png') no-repeat 0 -290px;
+  background-size: 104px 327.5px;
+}
+.box1 .tou3 {
+  background: #44c522;
+}
+.box1 .tou3 a span:nth-child(2) {
+  background: url('../img/xc_sprites.png') no-repeat 0 -235px;
+  background-size: 104px 327.5px;
+}
+.box3 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box3 a {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.box3 a:nth-child(2) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 4px -20px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(3) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 4px -49px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(4) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 2px -79px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(5) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 2px -105px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(6) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 7px -135px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(7) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 3px -165px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(8) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 3px -191px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(9) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 3px -217px;
+  background-size: 24px 300px;
+}
+.box3 a:nth-child(10) span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 6px -242px;
+  background-size: 24px 300px;
+}
+.box3 a span {
+  font-size: 12px;
+}
+.box3 a span:nth-child(1) {
+  width: 28px;
+  height: 28px;
+  background: url('../img/un_ico_subnav_v7.124@2x.png');
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+  background-size: 24px 300px;
+}
+.box4 {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.box4 .temai {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.box4 .temai h3 {
+  font-size: 16px;
+  color: #fd3c52;
+  font-style: italic;
+}
+.box4 .temai a {
+  font-size: 12px;
+  color: #fff;
+  background: #ff78aa;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+.box4 .tu4 {
+  display: flex;
+  padding: 5px;
+}
+.box4 .tu4 .zuo4 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.box4 .tu4 .zuo4 a {
+  font-size: 14px;
+}
+.box4 .tu4 .zuo4 a:nth-child(2) {
+  height: 40px;
+  overflow: hidden;
+}
+.box4 .tu4 .zuo4 .zi4 span {
+  color: #fe4f5e;
+}
+.box4 .tu4 .zuo4 .zi4 span:nth-child(2) {
+  font-size: 12px;
+  color: #fff;
+  background: #fd3a51;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+.box4 .tu4 .you4 {
+  flex: 1;
+}
+.box4 .tu4 .you4 .shang4 {
+  height: 50%;
+  font-size: 14px;
+  background: url('../img/pic-tmh-02.png') no-repeat, #f9f9f9;
+  background-position: right bottom;
+  background-size: 53.5px 71px;
+  border: 3px solid #fff;
+  padding: 5px;
+}
+.box4 .tu4 .you4 .shang4 a {
+  color: #fd7481;
+  font-weight: bold;
+}
+.box4 .tu4 .you4 .xiatu4 {
+  height: 50%;
+  display: flex;
+}
+.box4 .tu4 .you4 .xiatu4 .xia4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  border: 3px solid #fff;
+}
+.box4 .tu4 .you4 .xiatu4 .xia4 img {
+  width: 48px;
+}
+.box4 .tu4 .you4 .xiatu4 .xia4 p {
+  font-size: 12px;
+}
+.box4 .tu4 .you4 .xiatu4 .xia4:nth-child(2) h4 {
+  color: #68d5d2;
+}
+.box4 .tu4 .you4 .xiatu4 .xia4 h4 {
+  font-size: 12px;
+  color: #6ac2fb;
+}
+.box5 {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.box5 .re {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.box5 .re h3 {
+  font-size: 16px;
+  color: #ffa552;
+  font-style: italic;
+}
+.box5 .re a {
+  font-size: 12px;
+  color: #fff;
+  background: #ff6d83;
+  border-radius: 10px;
+  padding: 2px 5px;
+}
+.box5 .tu5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box5 .tu5 a {
+  width: 50%;
+}
+.box6 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.box6 .dianhua {
+  display: flex;
+}
+.box6 .dianhua a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.box6 .wang_nav {
+  text-align: center;
+}
+.box6 .cop {
+  text-align: center;
+}
